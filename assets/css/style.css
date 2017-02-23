@@ -7,7 +7,7 @@
 	width: 960px;
     margin: 0 auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-variant: small-caps;
+ /*   font-variant: small-caps;*/
     margin-top: 30px;
     color: #777777;
 }
@@ -24,7 +24,7 @@ header {
 #headname {
 	background-color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-variant: small-caps;
+/*	font-variant: small-caps;*/
 	color: white;
 	width: 250px;
 	float: left;
@@ -46,7 +46,7 @@ header {
 nav {
 	float: right;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-variant: small-caps;
+/*	font-variant: small-caps;*/
 	font-size: 18px;
 	font-weight: normal;
 	color: #777777;
@@ -109,6 +109,7 @@ h2 {
 	padding: 20px;
 	padding-left: 20px;
 	padding-top: 20px;
+	line-height: 1.5;
 }
 
 #rightmain {
@@ -117,6 +118,33 @@ h2 {
 	background-color: #fff;
 	text-align: left;
 	padding: 10px;
+}
+
+table { 
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+td { 
+    margin: 10px;
+    width: 260px;
+    height: 200px;
+    vertical-align:bottom;
+    text-align:center;
+    padding-bottom: 15px;
+}
+
+.tbl_img {
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.overtext {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;	
+	line-height: 50px;
+	opacity: 0.9;
 }
 
 ul {
@@ -144,7 +172,7 @@ li a {
 
 footer {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-variant: small-caps;
+/*	font-variant: small-caps;*/
 	font-size: 12px;
 	height: 100px;
 	line-height: 100px;
@@ -154,3 +182,41 @@ footer {
 	margin-top: 30px;
 	border-top: 8px solid #4aaaa5;
 }
+
+input {
+    width: 100%;
+    padding: 6px 6px;
+    margin: 8px 0;
+    border-color: lightseagreen;
+    border-width: 1px;
+    border-style: solid;
+	color: #848484;
+	font-size: 20px;
+}
+
+#fmsg {
+	height: 200px;
+}
+
+textarea {
+	border: solid 1px lightseagreen;
+	width: 100%;
+    padding: 6px 6px;
+    margin: 8px 0;
+	color: #848484;
+	font-size: 20px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 140px;
+    font-size: 20px;
+    text-align: center;
+}
+
